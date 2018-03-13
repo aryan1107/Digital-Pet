@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #23B2E5;
+}
+p{
+  text-align: left;
+}
+.hidden{
+    visibility:hidden;
+}
+#tamoVoice, #petStats{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+}
+.talking{
+    animation: mouthMotion 1s ease-in-out 1s infinite;
+}
+
+#PoisonedRight .poisoned{
+    animation: eyePoisonRight 1s ease-in-out 1s infinite;
+}
+#PoisonedLeft .poisoned{
+    animation: eyePoisonLeft 1s ease-in-out 1s infinite;
+}
+@keyframes mouthMotion{
+  0%{
+      transform: scaleY(1);
+      transform-origin: 20px 320px;
+  }
+  50%{
+      transform: scaleY(0);
+      transform-origin: 20px 320px;
+  }
+  100%{
+      transform: scaleY(1);
+      transform-origin: 20px 320px;
+  }
+}
+@keyframes eyePoisonRight{
+    0%{
+        transform: scale(.5);
+        transform-origin: 110px 70px;
+    }
+    25%{
+        transform: scale(1.5);
+        transform-origin: 110px 70px;
+    }
+    50%{
+        transform: scale(.5);
+        transform-origin: 110px 70px;
+    }
+    75%{
+        transform: scale(1.5);
+        transform-origin: 110px 70px;
+    }
+    100%{
+        transform: scale(0.5);
+        transform-origin: 110px 70px;
+    }
+}
+@keyframes eyePoisonLeft{
+    0%{
+        transform: scale(1.5);
+        transform-origin: 45px 70px;
+    }
+    25%{
+        transform: scale(0.5);
+        transform-origin: 45px 70px;
+    }
+    50%{
+        transform: scale(1.5);
+        transform-origin: 45px 70px;
+    }
+    75%{
+        transform: scale(0.5);
+        transform-origin: 45px 70px;
+    }
+    100%{
+        transform: scale(1.5);
+        transform-origin: 45px 70px;
+    }
+}
