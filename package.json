@@ -1,0 +1,16 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "generic template",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "Aryan Chaurasia",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "server-lite": "^1.0.0"
+  }
+}

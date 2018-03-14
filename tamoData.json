@@ -1,0 +1,49 @@
+
+{
+    "sayings": [
+       {"mood": "happy", "perc":0.2, "saying":"Too Happy yay"},
+       {"mood": "happy", "perc":0.4, "saying":"I'm happy"},
+       {"mood": "happy", "perc":0.6, "saying":"Yay happy!"},
+       {"mood": "happy", "perc":0.8, "saying":"A welcome sight"},
+       {"mood": "happy", "perc":1, "saying":"Appetite for life"},
+       {"mood": "angry", "perc":0.2, "saying":"Hot-blooded"},
+       {"mood": "angry", "perc":0.4, "saying":"In your face"},
+       {"mood": "angry", "perc":0.6, "saying":"Eat Mud!"},
+       {"mood": "angry", "perc":0.8, "saying":"Tit for tat!"},
+       {"mood": "sad", "perc":1, "saying":"Get Forked!"},
+       {"mood": "sad", "perc":0.2, "saying":"Don't grieve :("},
+       {"mood": "sad", "perc":0.4, "saying":"Some days are just bad days :("},
+       {"mood": "sad", "perc":0.6, "saying":"Tear come from heart :("},
+       {"mood": "sad", "perc":0.8, "saying":"Time to say goodBye :("},
+       {"mood": "sad", "perc":1, "saying":"I'm Depressed :("},
+       {"mood": "joke", "perc":0.2, "saying":"Speed thrills but Kills."},
+       {"mood": "joke", "perc":0.4, "saying":"Move just enough so people dont think m dead."},
+       {"mood": "joke", "perc":0.6, "saying":"Go left when nothing is going right."},
+       {"mood": "joke", "perc":0.8, "saying":"Roses are red  !"},
+       {"mood": "joke", "perc":1, "saying":"sky is blue"}
+    ],
+    "favFoods": [
+            {"foodName": "Mushroom", "foodValue":20, "poison":0.4},
+            {"foodName": "Chicken", "foodValue":40, "poison":0.2},
+            {"foodName": "Burger", "foodValue":50, "poison":0.15},
+            {"foodName": "Bacon", "foodValue":20, "poison":0.05},
+            {"foodName": "Breads", "foodValue":10, "poison":0.2},
+            {"foodName": "Egg", "foodValue":8, "poison":0.3},
+            {"foodName": "Roti", "foodValue":10, "poison":0.3},
+            {"foodName": "Chocolate Cake", "foodValue":15, "poison":0.01},
+            {"foodName": "Chicken Sashimi", "foodValue":24, "poison":0.5},
+            {"foodName": "Mercury", "foodValue":29, "poison":0.75},
+            {"foodName": "Poison", "foodValue":1, "poison":1}
+        ],
+        "compliments":[
+          "NAME is elegant",
+          "NAME is wonderful",
+          "NAME is Breathtaking!",
+          "NAME, you are fine! Damn!",
+          "NAME, is bold",
+          "NAME, you have style!",
+          "NAME, is so Unique",
+          "NAME, is Gracious",
+          "NAME is stunning!"
+      ]
+}

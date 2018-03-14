@@ -1,12 +1,21 @@
 * {
   box-sizing: border-box;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 700;
   margin: 0;
   box-sizing: border-box;
   background-color: #23B2E5;
 }
 p{
   text-align: left;
+}
+.dark{
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  color: pink;
+  background-color: black;
+  border-radius: 8em;
 }
 .hidden{
     visibility:hidden;
@@ -20,19 +29,17 @@ p{
     animation: mouthMotion 1s ease-in-out 1s infinite;
 }
 
-#PoisonedRight .poisoned{
-    animation: eyePoisonRight 1s ease-in-out 1s infinite;
+#PoisonedEyes .poisoned{
+    animation: eyeAnimation 1s ease-in-out 1s infinite;
 }
-#PoisonedLeft .poisoned{
-    animation: eyePoisonLeft 1s ease-in-out 1s infinite;
-}
+
 @keyframes mouthMotion{
   0%{
       transform: scaleY(1);
       transform-origin: 20px 320px;
   }
   50%{
-      transform: scaleY(0);
+      transform: scaleY(0.5);
       transform-origin: 20px 320px;
   }
   100%{
@@ -40,47 +47,13 @@ p{
       transform-origin: 20px 320px;
   }
 }
-@keyframes eyePoisonRight{
+@keyframes eyeAnimation{
     0%{
         transform: scale(.5);
-        transform-origin: 110px 70px;
-    }
-    25%{
-        transform: scale(1.5);
-        transform-origin: 110px 70px;
-    }
-    50%{
-        transform: scale(.5);
-        transform-origin: 110px 70px;
-    }
-    75%{
-        transform: scale(1.5);
         transform-origin: 110px 70px;
     }
     100%{
         transform: scale(0.5);
         transform-origin: 110px 70px;
-    }
-}
-@keyframes eyePoisonLeft{
-    0%{
-        transform: scale(1.5);
-        transform-origin: 45px 70px;
-    }
-    25%{
-        transform: scale(0.5);
-        transform-origin: 45px 70px;
-    }
-    50%{
-        transform: scale(1.5);
-        transform-origin: 45px 70px;
-    }
-    75%{
-        transform: scale(0.5);
-        transform-origin: 45px 70px;
-    }
-    100%{
-        transform: scale(1.5);
-        transform-origin: 45px 70px;
     }
 }
